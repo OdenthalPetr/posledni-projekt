@@ -1,0 +1,192 @@
+.btn{
+    background-color: #ffffff !important;
+}
+
+.navbar-proklik {
+    background-color: rgb(0, 0, 0);
+    display: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: larger;
+    font-style: bold;
+}
+
+
+
+.navbar-proklik a {
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    cursor: pointer;
+    color: #ffffff;
+    vertical-align: middle;
+    padding: 7.5px 16px;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.navbar-proklik a:hover{
+    background-color: #505050;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    vertical-align: middle;
+    border-bottom: green 7px solid;
+    padding: 7.5px 2px;
+    text-align: center;
+    margin-right: 4px;
+    
+}
+
+.maps{
+    display: inline-block;
+}
+
+.mainPart {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    align-items: center;
+}
+
+.mainPart div{
+    max-width: 600px;
+}
+
+.footerBottom a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.social a{
+    padding: 5px;
+    background-color: white;
+     border-radius: 9px;
+}
+
+.footer tom a:hover{
+    background-color: #505050;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.card-title{
+    margin-top: 10px;
+}
+
+.produkt:hover{
+
+    border-color: yellow;
+}
+
+.footerTop{
+    text-align: center;
+    padding: 30px;
+    background-color: #292929;
+}
+
+.footerTop a{
+    padding: 5px;
+    color: white;
+    font-size: larger;
+}
+
+.footerTop a:hover{
+    background-color: #6d6d6d;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    background-color: lightgrey;
+    font-family: "Tahoma", "Tahoma", sans-serif;
+    font-weight: bold;
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+}
+
+.seda{
+    background-color: rgb(184, 179, 179);
+}
+
+
+
+
+
+--------------------------------------------------------------------------¨
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+ 
+h1 {
+    text-align: center;
+    color: #333;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+ 
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #4cae4c;
+}
+ 
+#confirmationMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
